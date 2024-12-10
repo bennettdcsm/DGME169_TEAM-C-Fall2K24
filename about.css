@@ -1591,7 +1591,7 @@ flex-wrap: wrap;
   align-items: center; /* Center items horizontally */
   justify-content: center;
 	 max-width: 100%;
-    margin-top: 40px;
+  
  
 	  
 	
@@ -1802,7 +1802,19 @@ flex-wrap: wrap;
 }
   .about .news-block, .about .about-block {
     margin-bottom: 40px;
+	  margin-top: 0px;
+	  
   }
+	
+	.section-title {
+		margin-top:40px;
+		}
+	h2{
+		font-size: 10px;
+	}
+	
+		
+	}
 }
 
 @media (max-width: 480px)
