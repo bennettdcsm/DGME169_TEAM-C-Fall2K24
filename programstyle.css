@@ -35,6 +35,24 @@
 }
 
 
+.action-button{
+  border-radius: 10px;
+  background-color: #fff;
+  align-self: center;
+  display: flex;
+  margin-top: 20px;
+  width: 166px;
+  max-width: 100%;
+  flex-direction: column;
+  color: #000;
+  font: 700 24px Inter, sans-serif;
+  border: 2px solid #000;
+  padding: 18px 25px 18px;
+}
+.button-text{
+	align-items: center;
+}
+
 .sub-title{
 	margin-top: -50px;
 	margin-bottom: 50px;
@@ -442,6 +460,8 @@ header .visually-hidden {
     width: 100%;
     border-radius: 10px; 
 	  align-content: center;
+	    border: 2px solid #ccc; /* Adjust border width, color as needed */
+  border-radius: 5px;
   }
   .main-contant .category-tag {
     color: #ff9e55;
